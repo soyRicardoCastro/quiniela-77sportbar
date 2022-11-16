@@ -88,7 +88,7 @@ function Sidebar() {
                       menuActive ? 'inline-flex' : 'hidden'
                     }`}
                   >
-                    Cerrar Sesión
+                    Log Out
                   </span>
                 </button>
               </li>
