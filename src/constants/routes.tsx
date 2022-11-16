@@ -9,26 +9,26 @@ export const userRoutes = [
   {
     path: '/inicio',
     icon: <MdOutlineDashboard className={iconStyles} />,
-    name: 'Inicio'
+    name: 'Home'
   },
   {
     path: '/partidos',
     icon: <BiFootball className={iconStyles} />,
-    name: 'Partidos'
+    name: 'Games'
   },
   {
     path: '/mis-pronosticos',
     icon: <FaDice className={iconStyles}/>,
-    name: 'Mis Pronósticos'
+    name: 'My Bets'
   },
   {
     path: '/clasificatoria',
     icon: <AiOutlineTrophy className={iconStyles} />,
-    name: 'Clasificatoria'
+    name: 'Leaderboard'
   },
   {
     path: '/configuracion',
     icon: <BiSliderAlt className={iconStyles} />,
-    name: 'Configuración'
+    name: 'Settings'
   },
 ]
