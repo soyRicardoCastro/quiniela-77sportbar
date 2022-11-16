@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  .sidebar {
+    transition:all .4s ease-in-out;
+  }
+  .user_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .user-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settings_ui{
+    font-size: 20px;
+  }
+}
