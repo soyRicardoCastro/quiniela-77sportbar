@@ -38,9 +38,9 @@ function Pronostico() {
       await toast.promise(
         async () => axios.put(`/api/updatePronostico/${id}`, apuesta),
         {
-          pending: 'Enviando pronostico',
-          success: 'Enviado correctamente',
-          error: 'Ha ocurrido un error'
+          pending: 'Sending bet',
+          success: 'Successfully',
+          error: 'Error'
         }
       )
 

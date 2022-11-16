@@ -60,8 +60,8 @@ function Register() {
           await setUser(data)
         },
         {
-          pending: 'Enviando informacion',
-          success: 'Usuario creado satisfactoriamente'
+          pending: 'Sending Info',
+          success: 'User created successfully'
         }
       )
       setSending(false)
@@ -70,7 +70,7 @@ function Register() {
       console.error(e)
       setSending(false)
       if (e.response.status === 413)
-        return toast.error('La imagen es muy grande, escoje otra')
+        return toast.error('The image is so big, please choose other')
       if (e.response.status === 400)
         return toast.error('This user already exist')
       toast.error(e)
@@ -94,8 +94,6 @@ function Register() {
                   src='register-hero.jpg'
                   className='rounded-l-xl object-cover'
                   loading='lazy'
-                  height=''
-                  width=''
                   alt='music mood'
                 />
               </div>

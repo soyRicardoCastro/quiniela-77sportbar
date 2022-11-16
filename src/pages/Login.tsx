@@ -38,9 +38,9 @@ function Login() {
           await setUser(data)
         },
         {
-          pending: 'Enviando informacion',
-          success: 'Inicio de sesion correctamente',
-          error: 'Ha ocurrido un error'
+          pending: 'Sending Info',
+          success: 'Login Successfully',
+          error: 'Error'
         }
       )
       setSending(false)

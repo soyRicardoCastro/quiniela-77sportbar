@@ -52,17 +52,17 @@ function Settings() {
         send
       )
       setUser(data)
-      toast.success('Usuario Actualizado con exito')
+      toast.success('Successfully')
     } catch (error: any) {
       console.error(error)
       if (error.response.status === 413)
         return toast.error('La imagen es muy grande, elije otra')
-      toast.error('Ocurrio un error')
+      toast.error('Error')
     }
   }
 
   return (
-    <Layout title='Configuración'>
+    <Layout title='Settings'>
       <div className='flex items-center justify-center flex-col '>
         <div className='max-w-md p-6 rounded-md flex flex-col gap-4 justify-center settings_ui'>
           <picture className='user-img'>
