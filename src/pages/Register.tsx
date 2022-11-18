@@ -110,19 +110,18 @@ function Register() {
                       onChange={handleChange}
                       name='username'
                       id='user'
-                      className='block w-full px-4 py-3 rounded-md border border-gray-300 text-white transition duration-300 focus:ring-2 bg-gray-400 focus:ring-sky-300 focus:outline-none invalid:ring-2 invalid:ring-red-400'
+                      className='block w-full px-4 py-3 rounded-md border border-gray-300 text-white transition duration-300 focus:ring-2 bg-gray-400 focus:ring-gray-300 focus:outline-none invalid:ring-2 invalid:ring-red-400'
                     />
                   </div>
                   <div>
                     <label htmlFor='email' className='text-white'>
-                      Email
+                      Phone
                     </label>
                     <input
                       onChange={handleChange}
-                      type='email'
                       name='email'
                       id='email'
-                      className='block w-full px-4 py-3 rounded-md border border-gray-300 text-white transition bg-gray-400 duration-300 focus:ring-2 focus:ring-sky-300 focus:outline-none invalid:ring-2 invalid:ring-red-400'
+                      className='block w-full px-4 py-3 rounded-md border border-gray-300 text-white transition bg-gray-400 duration-300 focus:ring-2 focus:ring-gray-300 focus:outline-none invalid:ring-2 invalid:ring-red-400'
                     />
                   </div>
                   <div>
