@@ -53,7 +53,7 @@ function Login() {
   }
 
   return (
-    <div className='relative py-16 before:absolute before:inset-0 before:w-full before:h-[50%] before:bg-black bg-gray-900'>
+    <div className='relative py-16 bg-[url("/bg-qatar.png")] bg-cover bg-no-repeat'>
       <div className='relative container m-auto px-6 text-gray-500 md:px-12 xl:px-40'>
         <div className='m-auto space-y-4 md:w-8/12 lg:w-full'>
           <img

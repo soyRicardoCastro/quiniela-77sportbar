@@ -25,16 +25,16 @@ function Leaderboard() {
           </Table.HeadCell>
         </Table.Head>
 
-        <Table.Body>
+        <Table.Body className='bg-gray-900 bg-opacity-90 py-10'>
           {usersSorted?.map((user, i) => (
           <Table.Row key={i} className='my-4'>
-            <Table.Cell className={`font-bold text-md ${user._id === profile?._id && styleName}`}>
+            <Table.Cell className={`font-bold text-md text-center ${user._id === profile?._id && styleName}`}>
               {i + 1}
             </Table.Cell>
-            <Table.Cell className={`font-bold text-md ${user._id === profile?._id && styleName}`}>
+            <Table.Cell className={`font-bold text-md text-center ${user._id === profile?._id && styleName}`}>
               {user.username}
             </Table.Cell>
-            <Table.Cell className={`font-bold text-md ${user._id === profile?._id && styleName}`}>
+            <Table.Cell className={`font-bold text-md text-center ${user._id === profile?._id && styleName}`}>
               {user.puntos}
             </Table.Cell>
           </Table.Row>

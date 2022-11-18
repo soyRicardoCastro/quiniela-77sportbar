@@ -36,10 +36,10 @@ function Sidebar() {
   }
 
   return (
-    <aside className='h-screen w-auto'>
+    <aside className='min-h-screen h-auto w-auto'>
       <div
-        className={`sidebar relative h-screen overflow-hidden bg-gray-900 ${
-          menuActive ? 'w-56' : 'w-[3.55rem]'
+        className={`sidebar relative h-full overflow-hidden bg-gray-900 bg-opacity-90 ${
+          menuActive ? 'w-[200px]' : 'w-[63px]'
         }`}
       >
         <div className='flex fixed h-screen flex-col justify-between pt-2 pb-6'>

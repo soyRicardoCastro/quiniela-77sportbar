@@ -12,7 +12,7 @@ function Dashboard() {
   return (
     <Layout title='Home'>
       <div className='max-w-xl mx-auto'>
-        <div className='flex flex-col items-center pb-10'>
+        <div className='flex flex-col items-center pb-10 bg-gray-900 rounded-md bg-opacity-90'>
           <img
             className='mb-3 h-24 w-24 rounded-full shadow-lg'
             src={image}

@@ -16,7 +16,7 @@ interface Props {
 function PronosticoCard({ imgA, imgB, nameA, nameB, isActive, pronosticoId, golesLocal, golesVisita }: Props['body']) {
   return (
     <article className='w-full max-w-md'>
-      <div className='bg-gray-900 p-4 md:p-8 rounded-md'>
+      <div className='bg-gray-900 bg-opacity-80 p-4 md:p-8 rounded-md'>
         <div className='flex flex-col items-center justify-center gap-4'>
           <header className='flex flex-col md:grid md:grid-cols-3 md:place-content-center md:place-items-center gap-3 md:gap-6 items-center justify-center'>
             <div className='flex justify-center flex-col items-center'>
@@ -46,7 +46,7 @@ function PronosticoCard({ imgA, imgB, nameA, nameB, isActive, pronosticoId, gole
             ) : (
               <Link
               to={`/pronostico/${pronosticoId}`}
-              className='inline-flex items-center rounded-lg bg-yellow-300 py-3 px-6 text-center text-xl font-medium text-white focus:outline-none focus:ring-4 focus:ring-lime-300 transition'
+              className='inline-flex items-center rounded-lg bg-yellow-300 py-3 px-6 text-center text-xl font-medium text-white focus:outline-none focus:ring-4 transition'
             >
               Change Bet
             </Link>

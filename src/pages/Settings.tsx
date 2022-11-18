@@ -63,8 +63,8 @@ function Settings() {
 
   return (
     <Layout title='Settings'>
-      <div className='flex items-center justify-center flex-col '>
-        <div className='max-w-md p-6 rounded-md flex flex-col gap-4 justify-center settings_ui'>
+      <div className='flex items-center justify-center flex-col'>
+        <div className='max-w-md p-6 rounded-md flex flex-col gap-4 justify-center settings_ui bg-gray-900 bg-opacity-90'>
           <picture className='user-img'>
             <img src={src} alt='user_image' className='user_image' />
           </picture>
